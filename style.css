@@ -42,7 +42,7 @@ html {
 .blok .tabs input[type=radio] {
   position: absolute;
   top: 0;
-  left: -9999px;
+  left:0;
 }
 .blok .tabs > li {
   position: absolute;
