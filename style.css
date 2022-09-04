@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.blok .tabs {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.blok .tabs .content_blok {
+  width: 65vw;
+  height: 70vh;
+  overflow: scroll;
+}
+
+.blok {
+  background: url(../img/background_wood.jpeg) 100% center center no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.blok .tabs {
+  padding: 5vw 0 2vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+}
+.blok .tabs input[type=radio] {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+}
+.blok .tabs > li {
+  position: absolute;
+  display: block;
+  min-width: 65vw;
+  height: 100%;
+}
+.blok .tabs > li > label {
+  color: rgb(30, 7, 62);
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 10px 10px;
+  min-width: 6vw;
+  position: absolute;
+  top: -35px;
+  background: url(../img/staroi_bumagi_header.jpeg) 100% no-repeat;
+  border-radius: 5px;
+}
+.blok .tabs .content {
+  display: none;
+  position: relative;
+  background: url(../img/staroi_bumagi.jpeg) 100% no-repeat;
+  box-shadow: 54px 40px 83px -25px rgb(0, 0, 0);
+  min-width: 100%;
+}
+.blok .tabs .header_red {
+  position: absolute;
+  background: url(../img/staroi_bumagi_header.jpeg) 100% no-repeat;
+  width: 100%;
+  height: 5%;
+}
+.blok .tabs .header_red::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 65vw;
+  height: 29px;
+  background: rgba(247, 3, 3, 0.262);
+}
+.blok .tabs .header_green {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+}
+.blok .tabs .header_green::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 65vw;
+  height: 29px;
+  background: rgba(2, 254, 10, 0.281);
+}
+.blok .tabs .header_blue {
+  position: absolute;
+  background: url(../img/staroi_bumagi_header.jpeg) 100% no-repeat;
+  width: 100%;
+  height: 5%;
+}
+.blok .tabs .header_blue::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 65vw;
+  height: 29px;
+  background: rgba(27, 2, 254, 0.281);
+}
+.blok .tabs .header_yellow {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+}
+.blok .tabs .header_yellow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 65vw;
+  height: 29px;
+  background: rgba(254, 229, 2, 0.281);
+}
+.blok .tabs .header_purple {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+}
+.blok .tabs .header_purple::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 65vw;
+  height: 29px;
+  background: rgba(254, 2, 178, 0.281);
+}
+.blok .tabs .content_blok {
+  display: flex;
+  padding-top: 5%;
+  max-width: 65vw;
+}
+.blok .tabs .content_red {
+  justify-content: space-around;
+  align-items: center;
+  max-width: 65vw;
+}
+.blok .tabs .content_red .content_blok-text-red {
+  padding-top: 25vw;
+  width: 40%;
+}
+.blok .tabs .content_red .content_blok-text-red .header_red-h2 {
+  padding-top: 18vw;
+  color: rgb(30, 7, 62);
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+.blok .tabs .content_red .content_blok-text-red > .work {
+  padding: 1vw 0;
+}
+.blok .tabs .content_red .content_blok-text-red > .work > li {
+  color: rgb(30, 7, 62);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.blok .tabs .content_red .content_blok-text-red > p {
+  color: rgb(30, 7, 62);
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 1vw 0 2vw;
+}
+.blok .tabs .content_red .photo_red {
+  width: 30%;
+  padding: 2%;
+}
+.blok .tabs .content_red .photo_red > img {
+  position: absolute;
+  border-radius: 5px;
+  bottom: 10vw;
+  margin: 2vw;
+  width: 260px;
+  height: 260px;
+}
+.blok .tabs .content_red .photo_red > img:hover {
+  box-shadow: 16px 16px 23px -7px rgb(66, 68, 90);
+  transition: transform 0.4s ease-in;
+  transform: scale(1.3) translate(7px, 2px) skew(-1deg, 0deg);
+}
+.blok .tabs .content_green {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 65vw;
+  padding: 8vw 0 2vw;
+}
+.blok .tabs .content_green .img_green {
+  min-width: 40%;
+}
+.blok .tabs .content_green .img_green > img {
+  padding: 2vw;
+  max-width: 300px;
+}
+.blok .tabs .content_green .content_blok-text-green {
+  padding-top: 40vw;
+  min-width: 50%;
+}
+.blok .tabs .content_green .content_blok-text-green .header_green-h2 {
+  padding-top: 3vw;
+  color: rgb(30, 7, 62);
+  font-weight: 700;
+  font-size: 3.4rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+.blok .tabs .content_green .content_blok-text-green > ul {
+  padding: 3vw 0 0 5vw;
+}
+.blok .tabs .content_green .content_blok-text-green > ul > li {
+  color: rgb(30, 7, 62);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  padding-top: 1vw;
+}
+
+[for^=tab]:hover {
+  box-shadow: -57px -49px 80px -30px rgb(0, 0, 0);
+}
+
+[for=tab_0] {
+  right: 0;
+  width: 90%;
+  max-width: 55vw;
+  box-shadow: 37px 25px 40px -24px rgb(0, 0, 0);
+}
+
+[for=tab_0]::after {
+  content: "X";
+  position: absolute;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: rgb(121, 22, 22);
+  right: 4vw;
+  bottom: 0.6vw;
+}
+
+[for=tab_1] {
+  left: 0;
+}
+
+[for=tab_1]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  background: rgba(247, 3, 3, 0.262);
+}
+
+[for=tab_2] {
+  left: 7vw;
+}
+
+[for=tab_2]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  background: rgba(2, 254, 10, 0.281);
+}
+
+[for=tab_3] {
+  left: 14vw;
+}
+
+[for=tab_3]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  background: rgba(27, 2, 254, 0.281);
+}
+
+[for=tab_4] {
+  left: 21.1vw;
+}
+
+[for=tab_4]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  background: rgba(254, 229, 2, 0.281);
+}
+
+[for=tab_5] {
+  left: 28vw;
+}
+
+[for=tab_5]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  background: rgba(254, 2, 178, 0.281);
+}
+
+[id^=tab]:checked + label {
+  z-index: 11;
+}
+
+[id^=tab]:checked ~ [id^=tab-content] {
+  display: block;
+  z-index: 10;
+}
