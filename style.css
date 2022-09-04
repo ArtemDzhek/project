@@ -27,7 +27,7 @@ html {
 }
 
 .blok {
-  background: url(./img/background_wood.jpeg) 100% center center no-repeat;
+  background: url(./img/background_wood.jpeg) center center no-repeat;
   width: 100%;
   height: 100vh;
 }
