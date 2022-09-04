@@ -47,7 +47,7 @@ html {
   min-width: 6vw;
   position: absolute;
   top: -35px;
-  background: url(./img/staroi_bumagi.jpeg)  no-repeat;
+  background-color: rgb(202, 196, 108);
   border-radius: 5px;
 }
 .blok .tabs .content {
@@ -59,7 +59,7 @@ html {
 }
 .blok .tabs .header_red {
   position: absolute;
-  background: url(./img/staroi_bumagi.jpeg)  no-repeat;
+  background-color: rgb(202, 196, 108);
   width: 100%;
   height: 5%;
 }
@@ -90,7 +90,7 @@ html {
 }
 .blok .tabs .header_blue {
   position: absolute;
-  background: url(./img/staroi_bumagi.jpeg)  no-repeat;
+  background-color: rgb(202, 196, 108);
   width: 100%;
   height: 5%;
 }
