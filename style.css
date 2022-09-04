@@ -47,19 +47,19 @@ html {
   min-width: 6vw;
   position: absolute;
   top: -35px;
-  background: url(/img/staroi_bumagi_header.jpeg) 100% no-repeat;
+  background: url(./img/staroi_bumagi_header.jpeg) 100% no-repeat;
   border-radius: 5px;
 }
 .blok .tabs .content {
   display: none;
   position: relative;
-  background: url(img/staroi_bumagi.jpeg) 100% no-repeat;
+  background: url(./img/staroi_bumagi.jpeg) 100% no-repeat;
   box-shadow: 54px 40px 83px -25px rgb(0, 0, 0);
   min-width: 100%;
 }
 .blok .tabs .header_red {
   position: absolute;
-  background: url(../img/staroi_bumagi_header.jpeg) 100% no-repeat;
+  background: url(./img/staroi_bumagi_header.jpeg) 100% no-repeat;
   width: 100%;
   height: 5%;
 }
@@ -90,7 +90,7 @@ html {
 }
 .blok .tabs .header_blue {
   position: absolute;
-  background: url(../img/staroi_bumagi_header.jpeg) 100% no-repeat;
+  background: url(./img/staroi_bumagi_header.jpeg) 100% no-repeat;
   width: 100%;
   height: 5%;
 }
